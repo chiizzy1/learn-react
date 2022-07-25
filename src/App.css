@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background: cyan; */
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card{
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  border: 3px solid black;
+  margin-top: 5em;
+  padding: 2em;
+}
